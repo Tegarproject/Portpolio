@@ -1,0 +1,103 @@
+body {
+  min-height: 3000px;
+}
+.navbar {
+  background-color: rgb(1, 1, 1);
+  border-bottom: 1px solid #eee;
+}
+
+.navbar .navbar-brand {
+  font-size: 2rem;
+  font-weight: 700;
+  font-style: italic;
+}
+.navbar .navbar-brand span {
+  color: #0639df;
+}
+
+#navbarNav a:hover {
+  color: #0639df;
+}
+
+#navbarNav a::after {
+  display: block;
+  padding-bottom: 1rem;
+  border-bottom: 0.1rem solid #0639df;
+  transform: scaleX(0);
+}
+
+#navbarNav a:hover::after {
+  transform: scaleX(1);
+}
+
+.jumbotron {
+  padding-top: 6rem;
+  background-color: #75787c;
+}
+
+.jumbotron #jumbotron-brand {
+  font-weight: 700;
+}
+.jumbotron #jumbotron-brand span {
+  font-weight: 700;
+  color: #0639df;
+}
+
+#About {
+  background-color: #000;
+}
+
+#About h2 {
+  text-align: center;
+  font-size: 2.6rem;
+  color: #eee;
+}
+
+.about-brand span {
+  color: #0639df;
+}
+
+.about-content h3 {
+  font-weight: 500;
+  color: #0639df;
+}
+.about-content p {
+  font-weight: 100;
+  color: #eee;
+}
+
+#Contact {
+  background-image: url("About.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+input[type="text"],
+input[type="email"] {
+  background: none;
+  border: 1px solid #eee;
+  color: #eee;
+}
+textarea[type="text"],
+input[type="pesan"] {
+  background: none;
+  border: 1px solid #eee;
+  color: #eee;
+}
+
+#Project {
+  background-color: #74787c;
+}
+
+.project-brand span {
+  color: #0639df;
+}
+
+.contact-brand span {
+  color: #0639df;
+}
+
+section {
+  padding-top: 5rem;
+}
